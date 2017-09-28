@@ -1,0 +1,1 @@
++ not clear about what is happening in (peripherals.c - configure_torquer) - something to do with pwm, but not clear how it is working and stuff

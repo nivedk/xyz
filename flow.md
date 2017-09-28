@@ -1,0 +1,13 @@
+* int main(void) - (xyz.c)
+	* init_SPI() - (spi.c)
+  	* init_UART0() - (uart.c)
+  	* init_UART_MM() - (mag.c)
+  	* configure_torquer() - (peripherals.c)
+  	* void TWI_init_master(void) - (xyz.c)
+  	* void transmit_string_UART0(char *buffer) - (uart.c)
+  	* void transmit_string_UART0(char *buffer) - (uart.c)
+  	* void timer_reset_two_sec(void) - (timer.c) - *not too clear what this does*
+        * sbi - (common.h) 
+    + void TWI_start(void) - (xyz.c)
+    + void TWI_write_address(unsigned char data)
+    + TWI_stop()
